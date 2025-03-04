@@ -44,22 +44,6 @@ Ensure you have the following installed:
    flutter run
    ```
 
-## 🏗️ Project Structure
-
-This project follows a modular approach:
-
-### **1. Presentation Layer**
-- Handles UI using Flutter widgets
-- Displays camera feed and detected objects
-
-### **2. Domain Layer**
-- Defines business logic and detection use cases
-- Implements real-time object recognition logic
-
-### **3. Data Layer**
-- Loads and processes ML models (TFLite / ML Kit)
-- Fetches object classification data
-
 ## 📌 Notes & Limitations
 
 - Ensure that **TensorFlow Lite** or **ML Kit** is properly configured.
